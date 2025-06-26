@@ -12,8 +12,6 @@ screen.title("Snake game")
 screen.tracer(0)
 
 starting_position=[(0,0),(-20,0),(-40,0)]
-
-
 snake=Snake()
 food=Food()
 scoreboard=Scoreboard()
