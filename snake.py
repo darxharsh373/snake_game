@@ -17,7 +17,6 @@ class Snake:
         for position in STARTING_POSITIONS:
             self.add_segment(position)
            
-
    def add_segment(self,position):
 
         new_segment=Turtle("square")
